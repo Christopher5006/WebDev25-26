@@ -1,0 +1,33 @@
+ .container {
+    display: flex;
+ }
+
+ #banner p {
+    flex:1;
+ }
+ 
+ nav a {
+    flex: 1;
+    color:white;
+    background-color: green;
+ }
+ #sidebar {
+    flex-direction:column;
+    flex: 1;
+ }
+#main {
+    justify-content:center;
+    align-items:center;
+    flex: 3;
+ }
+#sample {
+    justify-content:center;
+    align-items:center;
+    flex: 3;
+ }
+    #footer p {
+        flex:1;
+        background-color: green;
+        color: white;
+        text-align: center;
+    }
